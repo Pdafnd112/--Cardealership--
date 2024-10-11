@@ -1,0 +1,84 @@
+/* @font-face {
+    font-family: 'Barlow';
+    src: url('Barlow-Bold.eot');
+    src: url('Barlow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Barlow-Bold.woff2') format('woff2'),
+        url('Barlow-Bold.woff') format('woff'),
+        url('Barlow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} */
+/* Barlow-Bold */
+@font-face {
+    font-family: "Barlow-Bold";
+    src: url('../fonts/Barlow-Bold.eot');
+}
+@font-face {
+    font-family: "Barlow-Bold";
+    src: url('../fonts/Barlow-Bold.woff');
+}
+@font-face {
+    font-family: "Barlow-Bold";
+    src: url('../fonts/Barlow-Bold.woff2');
+}
+/* Barlow-Medium */
+@font-face {
+    font-family: "Barlow-Medium";
+    src: url("../fonts/Barlow-Medium.eot");
+}
+@font-face {
+    font-family: "Barlow-Medium";
+    src: url("../fonts/Barlow-Medium.woff");
+}
+@font-face {
+    font-family: "Barlow-Medium";
+    src: url("../fonts/Barlow-Medium.woff2");
+}
+/* Barlow-Regular */
+@font-face {
+    font-family: "Barlow-Regular";
+    src: url("../fonts/Barlow-Regular.eot");
+}
+@font-face {
+    font-family: "Barlow-Regular";
+    src: url("../fonts/Barlow-Regular.woff");
+}
+@font-face {
+    font-family: "Barlow-Regular";
+    src: url("../fonts/Barlow-Regular.woff2");
+}
+/* Montserrat Thin */
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url('../fonts/Montserrat-Thin.eot');
+}
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url('../fonts/Montserrat-Thin.ttf');
+}
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url('../fonts/Montserrat-Thin.woff');
+}
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url('../fonts/Montserrat-Thin.woff2');
+}
+/* Montserrat Thin Bold */
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.eot");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.woff");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.woff2");
+}
