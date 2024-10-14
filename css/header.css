@@ -20,7 +20,7 @@ ul li {
 }
 .container {
   width: 100%;
-  max-width: 1340px;
+  max-width: 1400px;
   padding: 0 30px;
   margin: 0 auto;
 }
@@ -28,13 +28,13 @@ ul li {
   color: #ffffff;
 }
 .text-red{
-  color: #bd172dff;
+  color: #BD162D;
 }
 .text-black {
   color: #000000;
 }
-.font-bold {
-  font-weight: bold;
+.background-red{
+  background-color: #BD162D;
 }
 header {
   border-bottom: 1px solid gainsboro;
@@ -63,7 +63,7 @@ header {
   font-size: 16px;
 }
 .left-description{
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .left-description:hover a p{
   color: #AAAAAA;
@@ -269,7 +269,6 @@ header {
   border-radius: 50px;
   color: #ffffffff;
   transition: all 0.3s;
-  background-color: #bd172dff;
 }
 .call .content a:hover{
   background-color: #2364c4;
