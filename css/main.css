@@ -75,7 +75,6 @@
 .effect{
     width: 197px;
     height: 62px;
-    /* text-align: center; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +117,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    border: 1px solid red;
+    border: 2px solid red;
 }
 .inside-vehicle section h2{
     font-family: "Montserrat-Bold";
