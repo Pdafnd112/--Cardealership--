@@ -100,7 +100,7 @@ body{
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
-    background-color: coral;
+    background-color: rgb(245, 123, 78);
 }
 .Vehicle-one{
     height: 231px;
