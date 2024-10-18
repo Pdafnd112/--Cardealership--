@@ -210,14 +210,35 @@ form{
     height: 636px;
     /* margin: 0 auto; */
     /* padding: 50% 50%; */
+    text-align: center;
     background-color: #2364c4;
 }
 .popular-icon{
+    display: flex;
+    justify-content: center;
     border: 1px solid red;
 }
 .popular-icon img{
     width: 67px;
     height: 28px;
+}
+.inner-brands section{
+    padding: 25px 0;
+    background-color: chocolate;
+}
+.inner-brands section h2{
+    font-family: "Montserrat-Bold";
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.Incididunt{
+    height: 68px;
+    background-color: darkseagreen;
+}
+.Incididunt p{
+    font-family: "Barlow-Regular";
+    font-size: 20px;
+    color: #ffffffBf;
 }
 /* responsive */
 @media (max-width: 1440px) {
