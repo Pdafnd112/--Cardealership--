@@ -596,7 +596,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: dimgray;
+  background-color: rgb(138, 131, 131);
 }
 .business:hover .p-1 h5{
   color: #2364c4;
