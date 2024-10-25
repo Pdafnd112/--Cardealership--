@@ -196,56 +196,7 @@ header {
   align-items: center;
   background-color: deepskyblue;
 }
-/* wrapper-icon */
-.wrapper-icon {
-  position: fixed;
-  right: 15px;
-  top: 150px;
-  cursor: pointer;
-  z-index: 1000;
-}
-.box-up , .box-down {
-  width: 67px;
-  height: 66px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 7px;
-  border-radius: 5px;
-  font-size: 12px;
-  transition: all 0.3s;
-  overflow: hidden;
-  box-shadow: 0 -5px 20px 5px rgba(0, 0, 0, .15);
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-}
-.box-up {
-  background-image: url("../svg-icons/Prebuilts.svg");
-  background-position: 20px 15px;
-}
-.box-down {
-  background-image: url("../svg-icons/BY-Now.svg");
-  background-position: 15px 13px;
-}
-.wrapper-icon  h4 {
-  margin-top: 7px;
-}
-.wrapper-icon img {
-  position: relative;
-  top: 7px;
-  left: -70px;
-  transition: all 0.3s;
-}
-.total:hover {
-  background-position: 75px 15px;
-  transition: 0.3s;
-}
-.total:hover img {
-  left: 1px;
-  top: 7px;
-  transition: 0.3s;
-}
+/* call */
 .call{
   width: 24%;
   display: flex;
@@ -378,10 +329,5 @@ header {
     /* display: block; */
     justify-content: center;
     width: 100%;
-  }
-}
-@media (max-width:610px) {
-  .wrapper-icon{
-    display: none;
   }
 }
