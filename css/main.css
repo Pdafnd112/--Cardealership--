@@ -287,9 +287,9 @@ form {
   /* background-color: cadetblue; */
   /* background-color: #081b36; */
 }
-.inner-brands {
+.inner-brands,
+.inner-choose-us {
   width: 75%;
-  height: 636px;
   text-align: center;
 }
 /* explain */
@@ -298,12 +298,11 @@ form {
   justify-content: center;
   border: 1px solid red;
 }
-
 .popular-icon img {
   width: 67px;
   height: 28px;
 }
-.inner-brands section,
+.inner-brands section ,
 .inner-choose-us section {
   padding: 25px 0;
   background-color: chocolate;
@@ -575,12 +574,64 @@ form {
   transition: all 0.5s;
 }
 /* choose-us */
+.lin-two{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+}
 .choose-us {
   margin-top: 100px;
-  height: 500px;
+  height: 640px;
   background-color: cadetblue;
 }
+.box-lin{
+  height: 125px;
+  display: flex;
+  background-color: burlywood;
+}
+.business{
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dimgray;
+}
+.business:hover .p-1 h5{
+  color: #2364c4;
+  background-color: #2364c4;
+}
 
+.business span img{
+  width: 53.15px;
+  height: 46.4px;
+  background-color: #2364c4;
+}
+.p-1{
+  width: 75%;
+  text-align: left;
+  margin-left: 20px;
+  border: 1px solid red;
+}
+.p-1 h5{
+  font-family: "Montserrat-SemiBold";
+  font-size: 24px;
+  /* height: 29px; */
+  background-color: cadetblue;
+}
+.p-1 p{
+  font-family: "Barlow-Regular";
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 10px;
+  background-color: darkseagreen;
+}
+/* lin-two */
+.box-lin-left , .box-lin-right{
+  width: 50%;
+  background-color: #7a8390;
+}
 /* responsive */
 @media (max-width: 1440px) {
   .image-container .img {
