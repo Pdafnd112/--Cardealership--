@@ -425,9 +425,6 @@ form {
   /* position: relative; */
   background-color: tan;
 }
-.sale span {
-  border: 1px solid red;
-}
 .machins-picture {
   position: relative;
   /* display: flex;
@@ -759,24 +756,105 @@ form {
 }
 /* different-offers */
 .different-offers {
+  /* width: 100%; */
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  /* align-items: center; */
   background-color: cornflowerblue;
 }
-.frame-same {
+.same-frame {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 32%;
+  width: 100%;
+  /* max-width: 33.5%; */
   height: 518px;
-  border: 1px solid rgb(78, 75, 75);
-}
-.request {
-  background: linear-gradient(to bottom rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/car-service-left.jpg") center left no-repeat;
   background-size: cover;
+  border: 1px solid rgb(78, 75, 75);
+  background-color: darkseagreen;
+}
+.option-1 {
+  /* background: linear-gradient(to bottom rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/car-service-left.jpg") center left no-repeat;
+  background-size: cover; */
+  background: url("../images/car-service-left.jpg") 5% 25% no-repeat;
+  /* fill: rgb(0, 0, 0); */
+  /* filter: blur(rgba(0,0,0,0.5)); */
+  /* background-color: rgba(0,0,0,0.5); */
+}
+.option-2 {
+  background: url("../images/car-service-center.jpg") 10% 25% no-repeat;
+}
+.option-3 {
+  background: url("../images/car-service-right.jpg") 8% 25% no-repeat;
+}
+.option-symbol {
+  width: 80%;
+  padding: 50px 0 0 0;
+}
+.topic-1 p {
+  /* font-family: "Barlow-Bold"; */
+  font-family: "Montserrat-Bold";
+  font-size: 36px;
+  margin: 20px 0;
+}
+.topic-2 p {
+  font-family: "Barlow-Regular";
+  font-size: 20px;
+}
+.joint p {
+  text-transform: capitalize;
+}
+.joint p,
+.start-driving a span {
+  color: #ffffff;
+}
+.start-driving {
+  margin-top: 40px;
+  /* width: 173.64px; */
+  /* width: 180px; */
+  width: fit-content;
+  padding: 18px 35px;
+  border: 1px solid whitesmoke;
+  transition: all 0.3s;
+}
+.start-driving a span {
+  font-family: "Barlow-Medium";
+  font-size: 19px;
+  text-transform: capitalize;
+}
+.start-driving:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.start-driving:hover a span {
+  color: #222222;
+}
+/* world-news */
+.world-news {
+  width: 100%;
+  margin-top: 100px;
+  background-color: burlywood;
+}
+.hybrid-car {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+.action {
+  width: 100%;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2364c4;
+}
+.hybrid-car .action img {
+  width: 100%;
+  max-width: 95%;
+}
+body {
+  padding-bottom: 50px;
 }
 /* responsive */
 @media (max-width: 1440px) {
@@ -820,6 +898,20 @@ form {
   .machins .machins-picture img {
     max-width: 90%;
     height: auto;
+  }
+  /* different-offers */
+  .different-offers {
+    flex-wrap: wrap;
+  }
+  .layout-1,
+  .layout-2 {
+    width: 50%;
+  }
+  .layout-3 {
+    width: 100%;
+  }
+  .option-symbol {
+    width: 90%;
   }
 }
 /* @media (max-width: 1024px) {
@@ -945,6 +1037,27 @@ form {
   .structure {
     flex-wrap: wrap;
   }
+  /* different-offers */
+  .different-offers {
+  }
+  .layout-1,
+  .layout-2,
+  .layout-3 {
+    width: 100%;
+  }
+  .same-frame {
+    height: 415px;
+    /* height: 450px; */
+    margin-top: 30px;
+    background-size: cover;
+  }
+  .option-1 {
+    background-position: 100% 15%;
+  }
+  .option-3 {
+    background-position: 100% 50%;
+    /* background-size: cover; */
+  }
 }
 @media (max-width: 610px) {
   .wrapper-icon {
@@ -979,7 +1092,7 @@ form {
     margin-top: 20px;
   }
 }
-/* for mobile */
+/* for mobile s */
 @media (max-width: 320px) {
   .Inventory .child {
     height: 250px;
@@ -997,10 +1110,7 @@ form {
     height: 80px;
     flex-direction: column;
   }
-  /* .header-two a {
-  } */
-}
-/* mobile s */
-.history-title section h2 {
-  font-size: 28px;
+  .history-title section h2 {
+    font-size: 36px;
+  }
 }
