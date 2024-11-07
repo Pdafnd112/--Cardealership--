@@ -812,8 +812,6 @@ form {
 }
 .start-driving {
   margin-top: 40px;
-  /* width: 173.64px; */
-  /* width: 180px; */
   width: fit-content;
   padding: 18px 35px;
   border: 1px solid whitesmoke;
