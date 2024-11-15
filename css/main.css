@@ -396,6 +396,7 @@ form {
 .history-title section h2 {
   font-family: "Montserrat-Bold";
   font-size: 48px;
+  text-transform: capitalize;
 }
 /* product */
 .products {
@@ -427,18 +428,12 @@ form {
 }
 .machins-picture {
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   background-color: aqua;
 }
 .label {
   /* overflow: hidden; */
-  /* opacity: 0; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  display: none;
+  visibility: hidden;
+  opacity: 0;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -450,9 +445,6 @@ form {
 }
 .machins {
   width: 31.25%;
-  /* width: 30%; */
-  /* position: relative;
-  overflow: hidden; */
   border: 1px solid red;
   transition: all 0.3s;
 }
@@ -470,7 +462,8 @@ form {
 }
 .machins-picture:hover .label {
   /* overflow: visible; */
-  /* opacity: 1; */
+  visibility: visible;
+  opacity: 1;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -727,7 +720,6 @@ form {
   align-items: center;
 }
 .picture-car {
-  /* width: 25%; */
   padding: 0 55px;
   background-color: darksalmon;
 }
@@ -756,10 +748,8 @@ form {
 }
 /* different-offers */
 .different-offers {
-  /* width: 100%; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   background-color: cornflowerblue;
 }
 .same-frame {
@@ -768,9 +758,7 @@ form {
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* max-width: 33.5%; */
   height: 518px;
-  background-size: cover;
   border: 1px solid rgb(78, 75, 75);
   background-color: darkseagreen;
 }
@@ -794,7 +782,6 @@ form {
   padding: 50px 0 0 0;
 }
 .topic-1 p {
-  /* font-family: "Barlow-Bold"; */
   font-family: "Montserrat-Bold";
   font-size: 36px;
   margin: 20px 0;
@@ -835,24 +822,255 @@ form {
   margin-top: 100px;
   background-color: burlywood;
 }
-.hybrid-car {
-  margin-top: 50px;
-  width: 100%;
+/* new-slides */
+.new-slides {
   display: flex;
+}
+.hybrid-car,
+.compact-ranks {
+  margin-top: 50px;
 }
 .action {
-  width: 100%;
-  max-width: 50%;
-  display: flex;
-  justify-content: space-between;
   background-color: #2364c4;
 }
-.hybrid-car .action img {
-  width: 100%;
-  max-width: 95%;
+.po {
+  display: flex;
+  justify-content: flex-end;
 }
-body {
-  padding-bottom: 50px;
+.to-right {
+  margin-left: 32px;
+}
+.hybrid-car .action img,
+.compact-ranks .action img {
+  width: 100%;
+  max-width: 97%;
+}
+/* about-Buy */
+.about-Buy {
+  width: 100%;
+  max-width: 80%;
+  padding: 50px 50px 0 30px;
+  transform: translateY(-50px);
+  background-color: #ffffff;
+  border-radius: 15px;
+  transition: all 0.3s;
+  transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+/* .Ultimate {
+  font-family: "Montserrat-SemiBold";
+  font-size: 24px;
+} */
+.Ultimate h5 {
+  font-family: "Montserrat-Bold";
+  font-size: 24px;
+  line-height: 30px;
+}
+.show-price {
+  margin: 17px 0 20px 0;
+}
+.show-price span {
+  color: #2364c4;
+}
+.show-price span,
+.note p {
+  font-family: "Barlow-Regular";
+}
+.book-mark {
+  font-size: 16px;
+}
+.book-mark span {
+  transition: all 0.3s;
+}
+.book-mark:hover span {
+  color: #bd162d;
+}
+.note p {
+  font-size: 18px;
+}
+/* addtitional */
+.addtitional {
+  width: fit-content;
+  margin-top: 40px;
+  background-color: cadetblue;
+}
+.addtitional a {
+  display: flex;
+}
+.future {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: chocolate;
+}
+.read-more {
+  font-family: "Barlow-Medium";
+  font-size: 19px;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+.addtitional:hover .read-more {
+  color: #2364c4;
+}
+.trusted-buying {
+  width: 100%;
+}
+.into-trusted-buying {
+  display: flex;
+  background: url("../images/bg-up-footer.png") no-repeat;
+  background-size: cover;
+  background-color: #2364c4ff;
+  transform: translateY(50px);
+}
+.s-l-title h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 36px;
+}
+.format {
+  margin: 20px 0 40px 0;
+}
+.format p {
+  font-family: "Barlow-Regular";
+  font-size: 20px;
+}
+.definition {
+  padding: 50px 80px 50px 86px;
+}
+.s-l,
+.s-r {
+  border: 1px solid red;
+}
+.get-started {
+  width: fit-content;
+  padding: 20px 40px;
+  background-color: #bd162d;
+  transition: all 0.3s;
+}
+.get-started a span {
+  font-size: 19px;
+  font-family: "Barlow-Medium";
+}
+.get-started:hover {
+  background-color: #222222;
+}
+.s-l-title h3,
+.get-started a span {
+  text-transform: capitalize;
+}
+.advantage {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  background-color: cadetblue;
+}
+.advantage img {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Barlow-Regular";
+  background-color: burlywood;
+}
+.definition-p {
+  margin: 0 0 0 20px;
+}
+.definition-p p {
+  font-family: "Barlow-Regular";
+  font-size: 18px;
+}
+.s-l-title h3,
+.format p,
+.get-started a span,
+.definition-p p {
+  color: #ffffff;
+}
+/* main-footer */
+.main-footer {
+  width: 100%;
+  /* height: 577px; */
+  background: linear-gradient(
+      to right,
+      rgba(8, 27, 54, 50),
+      rgba(12, 38, 74, 0.8)
+    ),
+    url("../svg-icons/bg-down-footer.svg") no-repeat top center;
+  background-size: cover;
+}
+.range-1 {
+  padding: 100px 0px 50px 0;
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+.rr {
+  width: 33%;
+}
+.phone-number {
+  display: flex;
+  align-items: center;
+  background-color: burlywood;
+}
+.digit {
+  margin-left: 10px;
+}
+.digit p {
+  font-family: "Montserrat-Bold";
+  font-size: 30px;
+}
+/* media-special */
+.media-special {
+  background-color: dodgerblue;
+}
+.footer-lin {
+  width: 100%;
+}
+.footer-border-bottom {
+  height: 1px;
+  width: 100%;
+  /* border-bottom: 1px solid #b8bab9ff; */
+  border-bottom: 1px solid rgba(128, 128, 128, 0.814);
+}
+.range-2 {
+  padding: 75px 0 75px 0;
+}
+.range-2 ul {
+  padding: 0 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.range-2 ul li {
+  border: 1px solid red;
+  background-color: deepskyblue;
+}
+.range-2 ul li a span {
+  color: #ffffff;
+  font-family: "Barlow-Medium";
+  font-size: 19px;
+  transition: all 0.3s;
+}
+.range-2 ul li a:hover span {
+  color: #bd162d;
+}
+.range-3 {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 50px 0;
+}
+.insert p {
+  color: #ffffff66;
+  width: fit-content;
+  text-align: center;
+  font-family: "Barlow-Regular";
+  font-size: 16px;
+}
+.insert p a {
+  color: #2364c4;
 }
 /* responsive */
 @media (max-width: 1440px) {
@@ -903,23 +1121,43 @@ body {
   }
   .layout-1,
   .layout-2 {
-    width: 50%;
+    width: 48%;
   }
   .layout-3 {
-    width: 100%;
+    width: 96%;
+    background-size: cover;
+  }
+  .option-1 {
+    background: url("../images/car-service-left.jpg") 25% 25% no-repeat;
+  }
+  .option-2 {
+    background: url("../images/car-service-center.jpg") 35% 100% no-repeat;
+  }
+  .same-frame {
+    height: 430px;
   }
   .option-symbol {
     width: 90%;
   }
+  .range-2 ul {
+    padding: 0 0;
+    flex-direction: column;
+  }
+  .range-2 ul li {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
-/* @media (max-width: 1024px) {
-  form{
+@media (max-width: 1024px) {
+  /* form{
         flex-wrap: nowrap;
         width: 100%;
     }
   .form-style {
-  }
-} */
+  } */
+}
 @media (max-width: 860px) {
   .image-container .img {
     background-position: center top;
@@ -1054,7 +1292,40 @@ body {
   }
   .option-3 {
     background-position: 100% 50%;
-    /* background-size: cover; */
+  }
+  /* new-slides */
+  .new-slides {
+    flex-direction: column;
+  }
+  .hybrid-car .action img,
+  .compact-ranks .action img,
+  .about-Buy {
+    max-width: 100%;
+  }
+  .to-right {
+    margin-left: 0;
+  }
+  /* addtitional */
+  .into-trusted-buying,
+  .range-1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .rr {
+    width: 100%;
+  }
+  /* inside-media-special */
+  .media-special {
+    margin: 40px 0;
+  }
+  .inside-media-special {
+    margin: 0 auto;
+  }
+  .definition {
+    padding: 50px 50px;
+  }
+  .s-l,.advantage {
+    text-align: left;
   }
 }
 @media (max-width: 610px) {

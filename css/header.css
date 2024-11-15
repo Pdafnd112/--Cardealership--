@@ -94,7 +94,7 @@ header {
   /* width: 60%; */
   display: flex;
   justify-content: space-between;
-  background-color: deepskyblue;
+  /* background-color: deepskyblue; */
 }
 .header-two a {
   display: flex;
@@ -115,22 +115,28 @@ header {
 .header-two .space:hover a .logo-color img {
   background-color: #bd162d;
 }
-.social-media {
+.social-media,
+.media-special {
   display: flex;
   justify-content: flex-end;
   width: 40%;
   background-color: hotpink;
-  /* transition-property: color, background-color, border-color;
-  transition-duration: .2s;
-  transition-timing-function: linear; */
 }
 .inside-social-media {
-  /* padding: 10px 0; */
   display: flex;
   justify-content: center;
 }
-.social-media-icons {
-  background-color: burlywood;
+.t-bg span img {
+  background-color: #000000;
+}
+.i-bg span img {
+  background-color: #c13584;
+}
+.y-bg span img {
+  background-color: #cd201f;
+}
+.f-bg span img {
+  color: #0063dc;
 }
 /* header-three */
 .header-three .into-header-three {
@@ -141,6 +147,9 @@ header {
 .parent-car-logo {
   width: 16%;
   background-color: mediumturquoise;
+}
+.parent-car-logo img {
+  cursor: pointer;
 }
 .header-three {
   background-color: darkseagreen;
