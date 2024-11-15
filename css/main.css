@@ -1045,7 +1045,7 @@ form {
   justify-content: space-between;
 }
 .range-2 ul li {
-  border: 1px solid red;
+  border: 1px solid rgb(171, 127, 127);
   background-color: deepskyblue;
 }
 .range-2 ul li a span {
